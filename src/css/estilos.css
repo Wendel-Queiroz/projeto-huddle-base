@@ -1,0 +1,52 @@
+body{
+    background-image: url(../images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+}
+
+header{
+    display: flex;
+    margin: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    align-items: center;
+    gap: 5px;
+    color: white;
+}
+
+.fa-comment-dots {
+    font-size: 24px;}
+
+main{
+    display: flex;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+main div{
+    width: 50%;
+    margin-left: 47.5px;
+}
+
+main div img{
+    width: 90%;
+    height: 90%;
+}
+
+main section{
+    width: 50%;
+}
+
+main section h2{
+    font-weight: 600;
+}
+
+main section p{
+    font-weight: 400;
+}
+
+main section button{
+    color: hsl(257, 40%, 49%);
+    padding: 10px 50px;
+    border-radius: 20px;
+    border-style: none;
+}
